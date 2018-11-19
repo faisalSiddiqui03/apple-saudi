@@ -1,20 +1,12 @@
 const config = {
   "merchantId": "2002cbfe-9adf-42ac-9bfd-8e013fee7c18",
-  "developerApiUrl": "http://eu.ecom.capillary.in/developerapi/",
-  "base_dev_url": "http://eu.ecom.capillary.in/developerapi/",
-  "frontendApiUrl": "http://eu-fapi.ecom.capillary.in/V2",
-  "frontendApiUrlV3": "https://eu-frontapi.ecom.capillary.in/v3",
+  "developerApiUrl": "http://martjack.com/DeveloperAPI/",
+  "base_dev_url": "http://martjack.com/DeveloperAPI/",
+  "frontendApiUrl": "http://sg-frontapi.ecom.capillary.in",
+  "frontendApiUrlV3": "https://sg-frontapi.ecom.capillary.in",
   "publicKey": "DQIT6SJJ",
   "secretKey": "NEOV9AGGGLYHERHRBSOTBROD",
-  "mongodb": {
-    "host": "kishoret99:k0019625871@ds133627.mlab.com",
-    "port": "33627",
-    "db": "kt99-loopback"
-  },
   "baseUrl": "http://localhost:3000/api/",
-  'googleMapsApiKey': 'AIzaSyAl29VXAA5U34fAKFaQ9dEaxTJbA-Mxo8A',
-  "countryCode": "KW",
-  "languageCodeForBanner": "en",
   "server": {
     "mw-static": {
       "maxAge": "1 day"
@@ -44,15 +36,10 @@ const config = {
         ]
     },
   "enableRedisCaching": false,
-  "redis": {
-    "host": "production-pwa-redis.8xcpns.ng.0001.euc1.cache.amazonaws.com",
-    "port": "6379",
-    "database": "1"
-  },
   "graphite": {
     "host": "graphite-carbon.deis",
     "port": "2003",
-    "prefix" : "pwa.phkuwait",
+    "prefix" : "pwa.sauditest",
     "log" : true,
   },
   "logger": {
