@@ -1,0 +1,7 @@
+{
+  "name": "phkuwait",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
